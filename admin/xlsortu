@@ -1,0 +1,16 @@
+<?php 
+
+	header("Conten-type: application/vnd-ms-excel");
+	
+	header("Conten-Dispotition: attachment; filename=export-toexcel.xls");
+	
+	include "data_ortu.php";
+
+	$sql = $pdo->prepare ("SELECT * FROM data_ortu ");
+
+
+?>
+
+	
+	
+ 
